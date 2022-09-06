@@ -11,7 +11,7 @@ def test_github_desktop(setup_browser_desktop):
     desktop_site()
 
 
-def test_github_mobile_or_tablet(setup_browser_mobile, setup_browser_tablet):
+def test_github_mobile(setup_browser_mobile):
     opened_page_url("https://github.com")
     mobile_or_tablet_site()
 
